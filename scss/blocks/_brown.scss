@@ -1,0 +1,49 @@
+
+/* Brown */
+
+.site-brown {
+    background-color: #F8EDF0;
+}
+.brown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brown__text-wrapper {
+    width: 442px;
+}
+.brown__text-wrapper h2{
+    font-family: 'Hind Madurai';
+    font-size: 44.2px;
+    font-weight: 600;
+    line-height: 48.84px;
+    text-align: left;
+    color: #0F0101;
+}
+.brown__text-wrapper p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    opacity: 0.6;
+    color: #0F0101;  
+    margin-top: 16px;
+    margin-bottom: 35px;
+}
+.brown__text-wrapper a{
+    font-family: 'Hind Madurai';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.08px;
+    border: 2px solid #D23166;
+    color: #FAFAFA;
+    background-color: var(--main-color);
+    padding: 15px 41px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.brown__text-wrapper a:hover{
+    background-color: #FAFAFA;
+    color: var(--main-color);
+}

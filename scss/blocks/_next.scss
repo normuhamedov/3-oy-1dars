@@ -1,0 +1,42 @@
+
+/* Next section */
+
+.site-next {
+    padding: 100px 0 100px;
+}
+.next__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 39px;
+}
+.next__item{
+    width: 250;
+    padding: 33px 26px 27px 27px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+.next__item:hover{
+    box-shadow: 20px 20px 50px 0px #0000001A;
+}
+.next__item h2 {
+    font-family: 'Hind Madurai';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.6px;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 9px;
+}
+.next__item p {
+    font-family: 'Hind Madurai';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.32px;
+    color: black;
+    opacity: 0.6;    
+    text-align: center;
+}
